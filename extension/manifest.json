@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "OpenShift",
+  "version": "0.5",
+  "icons": {
+    "16": "images/f16.png",
+    "32": "images/f32.png",
+    "48": "images/f48.png",
+    "128": "images/f128.png"
+  },
+  "description": "Extension made for the OpenShift Event",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "tts"],
+  "content_scripts": [
+    {
+        "js": ["content.js"],
+        "matches": ["https://*/*"]
+    }
+  ]
+}
