@@ -4,7 +4,7 @@ The project Demonstration Video can be found [here](https://youtu.be/oqATWqwRMeM
 
 As I have already mentioned the  project is comprised of 3 things: Website, extension and WhatsApp integration. The project is deployed on a Kubernetes-based platform that comprises the following services to get the project running:
 
-![image](https://github.com/VersatileVats/SBH/assets/57909173/66bfe6f0-14f0-4896-8916-3e26e8082ab3)
+![image](/overview.jpg)
  
 So, whether it is any one part out of the 3, the **database & node js server components** will coordinate to deliver the things. You can access the website, but you won't be able to access the other two components because the WhatsApp integration requires me to add testing phone numbers which can only test out the application  and the extension needs to be deployed onto the Chrome web store to make it accessible. **So, that is out of my bounds** and you can refer to the video and the article to get an understanding of how things are spanning out. 
 
